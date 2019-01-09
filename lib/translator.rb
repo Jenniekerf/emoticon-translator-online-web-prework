@@ -27,4 +27,9 @@ end
 
 def get_english_meaning(path, emoticon)
   library = load_library(path)
+  result = library["get_meaning"][emoticon]
+  if result
+    meaning 
+  else
+    
 end
